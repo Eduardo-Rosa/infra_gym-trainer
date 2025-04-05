@@ -21,15 +21,19 @@ Infraestrutura como código (IaC) para um backend seguro e escalável que entreg
 ```text
 Cliente → API Gateway → Lambda → MongoDB Atlas + S3 → Link Temporário → Cliente
 
+```
+
 
 ### Instruções de Deploy
-
+```text
     - cd terraform
     - terraform init
     - terraform apply -var="mongodb_uri=<SUA_STRING_MONGO_ATLAS>"
 
+```
 
 ## Aqui temos uma receita fake para demonstrar o que foi criado em aula.
 
 ```text
 Para criar e reproduzir altere os dados utilizando os dados do seu projeto bem como sua conta AWS, lembre-se de deixar o repositório privado para proteger suas informações de conta!
+```
